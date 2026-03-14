@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "极致性能",
-    "title2": "剪贴板工具",
+    "title1": "比 PasteNow、Paste",
+    "title2": "快 3-5 倍",
     "title3": "",
-    "description": "比 PasteNow 和 Paste 性能更高的剪贴板工具，支持横版竖版切换，让你的工作效率翻倍。"
+    "description": "极致性能的剪贴板工具，响应速度远超 PasteNow 和 Paste，让你的工作效率翻倍。横版竖版自由切换，Mac 用户的终极选择。"
   },
   "SocialProof": {
     "maker": "千万用户的的选择"
@@ -13,12 +13,12 @@
     "description": "来自全球用户的真实反馈"
   },
   "Feature": {
-    "title": "核心特性"
+    "title": "为什么 Clipaste 遥遥领先？"
   },
   "Pricing": {
     "title": "价格",
-    "title2": "一次性购买，终身使用",
-    "description": "一次性付费，无订阅费用，终身免费更新。",
+    "title2": "一次性付费，终身使用",
+    "description": "无需订阅。对比 Paste 年付 $29.99，Clipaste 一次付费，仅需 $19。",
     "doYouLike": "喜欢 Clipaste 吗？",
     "follow": "关注我们的社交媒体。"
   },
@@ -34,12 +34,12 @@
   },
   "CTA": {
     "title": "立即下载 Clipaste",
-    "description1": "下载",
-    "description2": "Clipaste，",
-    "description3": "体验",
-    "description4": "极致性能，",
-    "description5": "提升效率",
-    "description6": "！"
+    "description1": "比 PasteNow 快 3-5 倍，",
+    "description2": "一次付费，",
+    "description3": "终身使用。",
+    "description4": "",
+    "description5": "",
+    "description6": ""
   },
   "CTAButton": {
     "title": "立即下载"

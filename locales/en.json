@@ -1,24 +1,24 @@
 {
   "Hero": {
-    "title1": "Ultimate Performance",
-    "title2": "Clipboard Tool",
+    "title1": "3-5x Faster than",
+    "title2": "PasteNow & Paste",
     "title3": "",
-    "description": "A clipboard tool with higher performance than PasteNow and Paste, supporting landscape and portrait mode switching, doubling your productivity."
+    "description": "The ultimate clipboard manager with unparalleled performance. Outperforms PasteNow and Paste by a significant margin. Switch between landscape and portrait modes effortlessly. The clear choice for Mac power users."
   },
   "SocialProof": {
-    "maker": "Trusted by millions of users"
+    "maker": "Trusted by millions"
   },
   "Showcase": {
-    "title": "Showcase",
-    "description": "Join thousands of creators using our landing page template"
+    "title": "User Reviews",
+    "description": "Real feedback from users worldwide"
   },
   "Feature": {
-    "title": "Features"
+    "title": "Why Clipaste Wins?"
   },
   "Pricing": {
     "title": "Pricing",
     "title2": "One-time payment, lifetime use",
-    "description": "One-time purchase, no subscription, lifetime free updates.",
+    "description": "No subscriptions. Compare to Paste's $29.99/year. Clipaste: one payment, yours forever.",
     "doYouLike": "Love Clipaste?",
     "follow": "Follow us on social media."
   },
@@ -34,12 +34,12 @@
   },
   "CTA": {
     "title": "Download Clipaste Now",
-    "description1": "Download ",
-    "description2": "Clipaste, ",
-    "description3": "experience ",
-    "description4": "ultimate performance, ",
-    "description5": "boost efficiency",
-    "description6": "!"
+    "description1": "3-5x faster than PasteNow. ",
+    "description2": "One payment, ",
+    "description3": "lifetime use. ",
+    "description4": "",
+    "description5": "",
+    "description6": ""
   },
   "CTAButton": {
     "title": "Download Now"
