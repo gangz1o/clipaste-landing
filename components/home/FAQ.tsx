@@ -24,25 +24,25 @@ const FAQ = ({
   return (
     <section
       id={id}
-      className="flex flex-col justify-center max-w-[88%] items-center py-16 gap-12"
+      className="flex flex-col justify-center max-w-4xl mx-auto px-4 py-16 gap-12"
     >
       <div className="flex flex-col text-center gap-4">
-        <h2 className="text-center text-white">
+        <h2 className="text-3xl font-bold text-center text-white">
           <RoughNotation type="highlight" show={true} color="#2563EB">
             {locale.title}
           </RoughNotation>
         </h2>
-        <p className="text-large text-default-500">{locale.description}</p>
+        <p className="text-lg text-default-500">{locale.description}</p>
       </div>
       <Accordion
         fullWidth
         keepContentMounted
         className="gap-3"
         itemClasses={{
-          base: "px-6 !bg-default-100 !shadow-none hover:!bg-default-200/50",
-          title: "font-medium",
+          base: "px-6 !bg-default-100 !shadow-none hover:!bg-default-200/50 rounded-lg mb-2",
+          title: "font-medium text-left",
           trigger: "py-6",
-          content: "pt-0 pb-6 text-base text-default-500",
+          content: "pt-0 pb-6 text-base text-default-500 text-left whitespace-pre-line",
         }}
         items={FAQS}
         selectionMode="multiple"
@@ -52,7 +52,7 @@ const FAQ = ({
         {FAQS?.map((item) => (
           <AccordionItem
             key={item.title}
-            indicator={<PlusIcon />}
+            indicator={<PlusIcon className="text-default-500" />}
             title={item.title}
             HeadingComponent="h3"
           >
