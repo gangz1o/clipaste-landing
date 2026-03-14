@@ -1,4 +1,4 @@
-import { LucideIcon, MagnetIcon } from "lucide-react";
+import { LucideIcon, MagnetIcon, Zap, Smartphone, Clock, Cloud, Shield, InfinityIcon } from "lucide-react";
 import { IconType } from "react-icons";
 import { BsGithub } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
@@ -7,72 +7,67 @@ import { MdCloudUpload } from "react-icons/md";
 
 export const FEATURES_EN = [
   {
-    title: "Open Source Advantage",
-    content: "Completely free with a wealth of customization options.",
-    icon: BsGithub,
+    title: "Lightning Fast",
+    content: "Optimized performance that outperforms PasteNow and Paste. Instant clipboard access with minimal latency.",
+    icon: Zap,
   },
   {
-    title: "Responsive Design",
-    content:
-      "Templates meticulously designed to ensure optimal display on any device.",
-    icon: FaMobileScreenButton,
+    title: "Landscape & Portrait",
+    content: "Seamlessly switch between landscape and portrait modes. Perfect for any workflow and screen orientation.",
+    icon: Smartphone,
   },
   {
-    title: "Easy Customization",
-    content:
-      "Effortlessly change colors, fonts, and layouts without any coding knowledge.",
-    icon: FaToolbox,
+    title: "Smart History",
+    content: "Intelligent clipboard history that learns from your usage patterns. Never lose important content again.",
+    icon: Clock,
   },
   {
-    title: "SEO Optimized",
-    content:
-      "Templates built with search engine optimization in mind to enhance your website's discoverability.",
-    icon: MagnetIcon,
+    title: "Cloud Sync",
+    content: "Sync your clipboard across all your devices. Access your clipboard history anywhere, anytime.",
+    icon: Cloud,
   },
   {
-    title: "One-Click Deployment",
-    content:
-      "Tightly integrated with leading web hosting services for instant website publishing.",
-    icon: MdCloudUpload,
+    title: "Privacy First",
+    content: "Your data stays on your device. Optional cloud sync with end-to-end encryption.",
+    icon: Shield,
   },
   {
-    title: "Globalization Support",
-    content:
-      "Supports multiple languages, making your website attractive to a global audience.",
-    icon: FaEarthAsia,
+    title: "Unlimited Storage",
+    content: "Store as many clipboard items as you need. No limits, no restrictions.",
+    icon: InfinityIcon,
   },
 ];
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "闪电般的速度",
+    content: "比 PasteNow 和 Paste 更快。极低延迟的剪贴板访问，体验飞一般的感觉。",
+    icon: Zap,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "横版竖版切换",
+    content: "支持横版和竖版无缝切换。完美适应任何工作流程和屏幕方向。",
+    icon: Smartphone,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "智能历史记录",
+    content: "智能剪贴板历史记录，学习你的使用习惯。再也不会丢失重要内容。",
+    icon: Clock,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "云端同步",
+    content: "跨设备同步剪贴板。随时随地访问你的剪贴板历史。",
+    icon: Cloud,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "隐私优先",
+    content: "你的数据只保存在你的设备上。可选的云同步采用端到端加密。",
+    icon: Shield,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "无限存储",
+    content: "存储任意数量的剪贴板内容。无限制，无上限。",
+    icon: InfinityIcon,
   },
 ];
 

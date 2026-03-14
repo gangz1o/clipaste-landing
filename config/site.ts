@@ -1,27 +1,24 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
+import { BsGithub, BsTwitterX } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
-import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
-
-const OPEN_SOURCE_URL = 'https://github.com/weijunext/landing-page-boilerplate'
 
 const baseSiteConfig = {
-  name: "Landing page boilerplate",
+  name: "Clipaste - 极致性能的剪贴板工具",
   description:
-    "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour.",
-  url: "https://landingpage.weijunext.com",
-  ogImage: "https://landingpage.weijunext.com/og.png",
+    "比 PasteNow 和 Paste 性能更高的剪贴板工具，支持横版竖版切换，让你的工作效率翻倍。",
+  url: "https://clipaste.app",
+  ogImage: "https://clipaste.app/og.png",
   metadataBase: '/',
-  keywords: ["landing page boilerplate", "landing page template", "awesome landing page", "next.js landing page"],
+  keywords: ["clipaste", "clipboard", "paste tool", "mac clipboard", "clipboard manager"],
   authors: [
     {
-      name: "weijunext",
-      url: "https://weijunext.com",
-      twitter: 'https://twitter.com/weijunext',
+      name: "Clipaste",
+      url: "https://clipaste.app",
+      twitter: 'https://twitter.com/clipaste',
     }
   ],
-  creator: '@weijunext',
-  openSourceURL: 'https://github.com/weijunext/landing-page-boilerplate',
+  creator: '@clipaste',
+  openSourceURL: 'https://github.com/clipaste/clipaste',
   themeColors: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -33,24 +30,18 @@ const baseSiteConfig = {
     apple: "/logo.png",
   },
   headerLinks: [
-    { name: 'repo', href: OPEN_SOURCE_URL, icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+    { name: '下载', href: '#download', icon: BsGithub },
+    { name: '特性', href: '#features', icon: BsGithub },
+    { name: '常见问题', href: '#faq', icon: BsGithub },
   ],
   footerLinks: [
-    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
-    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
+    { name: 'email', href: "mailto:hello@clipaste.app", icon: MdEmail },
+    { name: 'github', href: "https://github.com/clipaste/clipaste", icon: BsGithub },
+    { name: 'twitter', href: "https://twitter.com/clipaste", icon: BsTwitterX },
   ],
   footerProducts: [
-    { url: 'https://nexty.dev/', name: 'SaaS Starter' },
-    { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
-    { url: 'https://weijunext.com/', name: 'J实验室' },
-    { url: 'https://nextjscn.org/', name: 'Next.js 中文文档' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
+    { url: 'https://clipaste.app', name: 'Clipaste' },
+    { url: 'https://github.com/clipaste/clipaste', name: 'GitHub' },
   ]
 }
 

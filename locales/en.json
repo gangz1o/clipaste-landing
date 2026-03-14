@@ -1,47 +1,47 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "Ultimate Performance",
+    "title2": "Clipboard Tool",
+    "title3": "",
+    "description": "A clipboard tool with higher performance than PasteNow and Paste, supporting landscape and portrait mode switching, doubling your productivity."
   },
   "SocialProof": {
-    "maker": "makers ship fast"
+    "maker": "Trusted by millions of users"
   },
   "Showcase": {
     "title": "Showcase",
-    "description": "Join 1000+ Makers Boosting Conversions with Our Landing Page Boilerplate"
+    "description": "Join thousands of creators using our landing page template"
   },
   "Feature": {
     "title": "Features"
   },
   "Pricing": {
     "title": "Pricing",
-    "title2": "Get unlimited access.",
-    "description": "The page you are currently viewing is an open-source, free boilerplate.",
-    "doYouLike": "Do you like this landing page boilerplate?",
-    "follow": "Follow my Twitter."
+    "title2": "One-time payment, lifetime use",
+    "description": "One-time purchase, no subscription, lifetime free updates.",
+    "doYouLike": "Love Clipaste?",
+    "follow": "Follow us on social media."
   },
   "Testimonials": {
     "title": "Testimonials",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
-    "description2": "please let me know",
-    "description3": ". I will display your tweet and recommendation here."
+    "description1": "If you love Clipaste, ",
+    "description2": "let us know",
+    "description3": ", and we'll showcase your testimonial here."
   },
   "FAQ": {
     "title": "FAQs",
-    "description": "Here are some of the most frequently asked questions."
+    "description": "Here are some of the most common questions."
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
+    "title": "Download Clipaste Now",
+    "description1": "Download ",
+    "description2": "Clipaste, ",
+    "description3": "experience ",
+    "description4": "ultimate performance, ",
+    "description5": "boost efficiency",
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Source Code"
+    "title": "Download Now"
   }
 }
