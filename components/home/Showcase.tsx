@@ -1,7 +1,7 @@
 import WebsiteCard from "@/components/WebsiteCard";
 import { showcases } from "@/config/showcases";
 import { createModernMetaScraper, ModernMetaScraper } from "@/lib/metaScraper";
-import { Spacer } from "@nextui-org/react";
+import { Spacer } from "@heroui/react";
 import { RoughNotation } from "react-rough-notation";
 
 const scraper: ModernMetaScraper = createModernMetaScraper();

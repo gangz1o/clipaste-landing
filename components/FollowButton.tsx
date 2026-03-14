@@ -1,7 +1,7 @@
 "use client";
 
 import { Icon } from "@iconify/react";
-import { Button, Link } from "@nextui-org/react";
+import { Button, Link } from "@heroui/react";
 
 export default function FollowButton({
   name,

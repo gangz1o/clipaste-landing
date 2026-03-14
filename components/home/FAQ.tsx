@@ -1,6 +1,6 @@
 "use client";
 import { ALL_FAQS } from "@/config/faqs";
-import { Accordion, AccordionItem } from "@nextui-org/react";
+import { Accordion, AccordionItem } from "@heroui/react";
 import { PlusIcon } from "lucide-react";
 import { RoughNotation } from "react-rough-notation";
 
